@@ -1,0 +1,230 @@
+:root{
+    --main-color:black;
+    --sec-color:#616161;
+    --body-color:#9d9d9d;
+}
+body,html{
+    font-family: "Raleway", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f1f1f1 !important;
+    text-align: justify;
+}
+.contaner{
+    padding-left:15px ;
+    padding-right:15px ;
+    margin-left:auto ;
+    margin-right: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    .contaner{
+        width: ;
+    }
+  } */
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .contaner{
+        width: 580px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .contaner{
+        width: 750px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .contaner{
+        width: 970px;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .contaner{
+        width: 1170px;
+    }
+  }
+  /* start head */
+  .logo{
+    text-align: center;
+    padding: 20px;
+  }
+  .logo span{
+    color: white;
+    background-color: var(--main-color);
+    padding: 2px 6px;
+  }
+  /* end head */
+  /* start body */
+  .body{
+    width: 700px;
+    display: inline-flex;
+    flex-flow: column wrap;
+  }
+  .body img{
+    width: 100%;
+  }
+  .card-content{
+    padding: 15px;
+  }
+  .col{
+    background-color: white;
+    margin: 10px 0px 35px;
+    box-shadow: 0px 0px 20px 1px #00000073;
+    width: 100%;
+  }
+  h5 span{
+    color: var(--sec-color);
+  }
+  .card-button{
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  .card-button span{
+    float: right;
+    padding: 12px 24px;
+    font-weight: 700;
+  }
+  .card-content p{
+    padding-bottom: 6px;
+  }
+  .card-button input{
+    background-color: transparent;
+    border: solid 0.5px var(--main-color);
+    padding: 12px 24px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.card-button span span{
+    color: white;
+    background-color: black;
+    padding: 0px 8px;
+    border-radius: 50%;
+    margin-left:12px;
+  }
+  .sec-row{
+    display: inline-flex;
+    flex-flow: column wrap;
+    width: 430px;
+    text-align: initial;
+    margin-left: 35px;
+
+  }
+  .card1 .img{
+    width: 100%;
+  }
+  .card1 img{
+    width: 100%;
+    height: 220px;
+  }
+  .content{
+    padding: 15px;
+    line-height: 1.5;
+  }
+  .card2-content span:first-child{
+    font-weight: 500;
+    font-size: 19px;
+  }
+  .card2-content span:last-child{
+    font-size: 15px;
+  }
+/*  */
+.header{
+  background-color: #f1f1f1;
+}
+.header h4{
+  padding: 20px 15px;
+  margin: 0px;
+}
+.country{
+  padding: 15px;
+  font-size: 14px;
+}
+.country span{
+  padding: 2px 4px;
+  background-color: #f1f1f1;
+  margin: 0px 3px 7px 0px;
+  display: inline-block;
+}
+.country .speacial{
+  background-color: black;
+  color: white
+}
+.card2-content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20%;
+}
+.card2-content span:first-child{
+  margin-bottom: 7px;
+
+}
+.card2-content span{
+  display: block;
+}
+
+.post{
+  position: relative;
+  border-bottom: .5px #ddd solid;
+  padding: 15px;
+}
+.card2-post div:last-child{
+  border: 0;
+}
+.small-img{
+  width: 30%;
+    margin: 0px;
+    padding: 0px;
+}
+.small-img img{
+  width: 43%;
+}
+  /* end body */
+  /* start footer */
+.footer{
+    background-color: var(--sec-color);
+    padding: 20px;
+}
+.footer p{
+        text-align: center;
+        font-family: "Nabla", system-ui;
+        padding-bottom: 30px;
+
+}
+.footer input{
+    padding: 12px 24px;
+    border: none;
+}
+ .in1{
+background-color: #444444;
+color: #878787;
+}
+ .in2{
+    background-color: var(--main-color);
+    color: white;
+
+}
+.in1:hover{
+    background-color: #878787;
+    color: #444444;
+}
+.in2:hover{
+    background-color: var(--body-color);
+    color: var(--main-color);
+}
+  /* end footer */
